@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  display: flex;
+  height: 100%;
+  color: #ffffff;
+  height: 100vh;
+}
+
+.background {
+  background: linear-gradient(to bottom, #134d71 25%, #f7e4bf 100%);
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.selfcare {
+  color: hsl(0, 0%, 100);
+  font-family: "Quicksand", sans-serif;
+  padding: 50px;
+  font-size: 30px;
+}
+
+.messagetype {
+  color: hsl(0, 0%, 100);
+  font-family: "Quicksand", sans-serif;
+  padding: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.choice-container {
+  padding: 10px;
+  background-color: #ffffff;
+  justify-content: space-evenly;
+  width: 600px;
+  height: 100px;
+  border-radius: 12px;
+  margin: 30px;
+  text-align: center;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+}
+
+.radio-container {
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.results-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 700px;
+  height: 75px;
+  border-radius: 12px;
+  margin: 30px;
+  padding: 35px;
+  text-align: center;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+}
+
+button {
+  font-family: "Quicksand", sans-serif;
+  background: #134d71;
+  color: white;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 5px 15px 5px 15px;
+  border: none;
+  width: 200px;
+}
+
+#meditate {
+  height: 60px;
+  display: block;
+}
